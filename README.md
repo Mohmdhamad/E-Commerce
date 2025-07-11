@@ -1,26 +1,69 @@
-# 🛍️ E-Commerce App
+# E-Commerce App
 
-A complete Flutter E-Commerce mobile application built with clean architecture, Bloc for state management, and modern UI/UX principles.
+A complete Flutter E-Commerce mobile application built using clean architecture and Bloc for state management.
 
-## 📱 Features
+## Features
 
-- ✅ **Authentication** (Login, Register, Logout)
-- 🛒 **Products Listing**
-- ❤️ **Favorites**
-- 🛍️ **Cart Management**
-- 🔍 **Search Functionality**
-- 🧾 **Profile Management** (View / Edit / Delete)
-- 🌐 **API Integration** using Dio
-- 💾 **Local Token Caching** with SharedPreferences
-- 📦 **Modular Architecture** for scalability
+- User Authentication (Login / Register / Logout)
+- Product Listing and Details
+- Add to Favorites and Remove
+- Shopping Cart Management
+- Profile View, Edit, and Delete
+- Responsive UI and Clean Design
+- API Integration with Dio
+- Token Storage using SharedPreferences
+- Full State Management using flutter_bloc
 
-## 🖼️ Screenshots
+## Project Structure
 
-| Home Screen | Product Details | Cart |
-|-------------|------------------|------|
-| ![Home](assets/screenshots/home.png) | ![Details](assets/screenshots/details.png) | ![Cart](assets/screenshots/cart.png) |
+```
+lib/
+├── core/                # Reusable helpers, constants, cache
+├── features/
+│   ├── auth/            # Login and Register
+│   ├── home/            # Product Listing
+│   ├── favorite/        # Favorite Products
+│   ├── cart/            # Shopping Cart
+│   ├── profile/         # User Profile
+│   └── ...              # Other features
+└── main.dart
+```
 
-*(add your own screenshots in `assets/screenshots/`)*
+## Getting Started
 
-## 📂 Project Structure
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohmdhamad/E-Commerce.git
+   cd E-Commerce
+   ```
 
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+> Make sure your emulator or physical device is running.
+
+## Tech Stack
+
+- Flutter & Dart
+- flutter_bloc
+- Dio
+- SharedPreferences
+- Clean Architecture Principles
+
+## Author
+
+**Mohamed Abdelfattah Hamad**  
+Flutter Developer from Tanta, Egypt
+- GitHub: [Mohmdhamad](https://github.com/Mohmdhamad)
+- LinkedIn: [mo7maaa7maaa](https://www.linkedin.com/in/mo7maaa7maaa)
+
+## License
+
+This project is licensed under the MIT License.
