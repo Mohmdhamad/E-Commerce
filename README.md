@@ -1,16 +1,26 @@
-# e_commerece_sun3_c13
+# 🛍️ E-Commerce App
 
-A new Flutter project.
+A complete Flutter E-Commerce mobile application built with clean architecture, Bloc for state management, and modern UI/UX principles.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- ✅ **Authentication** (Login, Register, Logout)
+- 🛒 **Products Listing**
+- ❤️ **Favorites**
+- 🛍️ **Cart Management**
+- 🔍 **Search Functionality**
+- 🧾 **Profile Management** (View / Edit / Delete)
+- 🌐 **API Integration** using Dio
+- 💾 **Local Token Caching** with SharedPreferences
+- 📦 **Modular Architecture** for scalability
 
-A few resources to get you started if this is your first Flutter project:
+## 🖼️ Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Home Screen | Product Details | Cart |
+|-------------|------------------|------|
+| ![Home](assets/screenshots/home.png) | ![Details](assets/screenshots/details.png) | ![Cart](assets/screenshots/cart.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*(add your own screenshots in `assets/screenshots/`)*
+
+## 📂 Project Structure
+
